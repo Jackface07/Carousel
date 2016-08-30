@@ -1,0 +1,69 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+    margin:0;
+    padding:0;
+    position: relative;
+}
+body{
+    background-color:lightgray;
+}
+.container{
+    width:720px;
+    margin:0 auto;
+    height:359px;
+    overflow:hidden;
+}
+ul{
+    width:100%;
+}
+.item{
+    position:absolute;
+    list-style:none;
+    background-color:white;
+    z-index:0;
+    opacity:0;
+    transition: opacity 0.5s;
+}
+.item1{
+    list-style:none;
+    background-color:white;
+    opacity:1;
+    overflow:hidden;
+    transition: top,opacity 0.5s;
+    position:absolute;
+}
+.banner{
+    width:100%;
+    height:359px;
+
+}
+.left{
+    width:50%;
+    float:left;
+    line-height:1.2em;
+}
+.left img{
+    margin:0 auto;
+    vertical-align:middle;
+}
+.right{
+    width:45%;
+    float:left;
+    line-height:1.2em;
+}
+.right h3{
+    font-size:1.5em;
+    line-height:1.2em;
+    margin:1em 0 0;
+    color:#ff4c4c;
+    font-family: 微软雅黑;
+}
+.right p{
+    font-size:14px;
+    line-height:1.8em;
+    margin:1em 0 4em;
+    font-family: 微软雅黑;
+}
+
+
